@@ -1,3 +1,8 @@
 /.DS_Store
 /.classpath
 /.project
+/.ensime
+/target
+project/
+.ensime_cache/
+/*.scala.old
