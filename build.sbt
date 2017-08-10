@@ -1,6 +1,6 @@
 organization := "com.ilanpillemer"
 
-name := "ngram-austen-novel"
+name := "ngram-austen-novels"
 
 version := "0.1.0"
 
@@ -45,9 +45,9 @@ libraryDependencies ++= Seq(
   "junit" %  "junit" % "3.8.1" % "test",
   "org.apache.hadoop" %  "hadoop-core" % "2.6.0-mr1-cdh5.9.0",
   "org.apache.hadoop" %  "hadoop-common" % "2.7.0",
-   "org.scalatest"     %% "scalatest"   % "3.0.3" % Test withSources(),
+   "org.scalatest"     %% "scalatest"   % "3.0.3" % Test withSources()
   //"org.scalatest"     %% "scalatest"   % "3.0.3" % Test,
-  "junit"             %  "junit"       % "4.12"  % Test
+  //"junit"             %  "junit"       % "4.12"  % Test
 )
 
 logLevel := Level.Warn
